@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    background-color: crimson;
+}
+div.container {
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    background-color: burlywood;
+    border: 2px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div.container textarea 
+{
+   width: 90%;
+   font-size: 30px;
+   padding: 20px;
+   background-color: bisque;
+}
+
+div.container p 
+{
+  font-size: 25px;
+}
